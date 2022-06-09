@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+header, main, footer {
+     width: 100%;
+}
+
+section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+p, h2, h3 {
+     text-align: center;
+}
+
+p {
+     font-size: 1.4em;
+     font-weight: 550;
+     width: 60%;
+     margin: 0 auto 30px auto;
+}
+
+h2, h3 {
+     color: #292929;
+     font-size: 1.8em;
+     font-weight: 900;
+     margin-bottom: 20px;
+}
+
+h3 {
+     font-size: 1.6em;
+}
+
+.area-limite {
+     width: 80%;
+     max-width: 1024px;
+     margin: 0 auto;
+}
+
+.secao-margin-bottom {
+     margin-bottom: 6%;
+}
+
+/* MENU */
+
+header {
+     background-color: #00cad1;
+}
+
+.menu {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.menu figure, .menu figure img {
+     width: 135px;
+}
+
+.menu nav {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.menu nav a {
+     color: #fff;
+     font-size: 1em;
+     font-weight: bold;
+     text-decoration: none;
+     margin: 0 25px;
+     transition: 0.1ms;
+}
+
+.menu nav a:hover {
+     color: #00575a;
+     transition: 1ms;
+}
+
+.menu nav a:visited {
+     color: #fff;
+}
+
+/* SEÇÃO BANNER */
+
+.banner-topo {
+     width: 100%;
+     height: 440px;
+     background-image: url('../assets/recepcao.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+.conteudo-banner h1 {
+     color: #fff;
+     font-size: 2.4em;
+     font-weight: 500;
+}
+
+/* SEÇÃO SOBRE */
+
+#sobre {
+     margin-top: 80px;
+}
+
+.sobre-encontre-aqui {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5%;
+     margin-top: 25px;
+}
+
+.sobre-encontre-aqui span {
+     width: 10%;
+     color: #292929;
+     font-size: 1.3em;
+     font-weight: 900;
+}
+
+.sobre-encontre-aqui ul {
+     width: 80%;
+     position: relative;
+     left: 10%;
+     margin-top: 20px;
+     z-index: -1;
+}
+
+.sobre-encontre-aqui ul li {
+     font-size: 1.2em;
+     margin: 2px 0;
+}
+
+/* CLÍNICA MULTIESPECIALIDADE */
+
+.clinica-multiespecialidade {
+     margin-bottom: 20px;
+}
+
+.secao-cards-multiespecialidade {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+
+.secao-cards-multiespecialidade figure img {
+     width: 100%;
+}
+
+.secao-cards-multiespecialidade figure {
+     width: calc((100% / 3) - 30px);
+     margin: 0 1.3% 5% 1.3%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     box-shadow: 0 0 10px 1px #9c9c9cb9;
+     transition: 0.2s;
+}
+
+.secao-cards-multiespecialidade figure:hover {
+     transform: scale(1.1);
+     transition: 0.5s;
+}
+
+.secao-cards-multiespecialidade figure figcaption {
+     font-size: 1.3em;
+     font-weight: 500;
+     padding: 12px 0;
+}
+
+.link-ver-horarios a {
+     color: #fff;
+     font-size: 1.1em;
+     font-weight: 800;
+     text-decoration: none;
+     padding: 15px 30px;
+     background-color: #00cad1;
+     border-radius: 15px;
+}
+
+/* SEÇÃO CONTATO */
+
+.conteudo-texto-contato p {
+     font-size: 1.3em;
+     margin: 10px auto;
+}
+
+.area-contato-iframe {
+     width: 100%;
+     margin-top: 5%;
+}
+
+.area-contato-iframe iframe {
+     width: 100%;
+     height: 200px;
+}
+
+/* RODAPÉ */
+
+footer {
+     padding: 20px 0;
+     background-color: #00575a;
+}
+
+footer .area-limite {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+
+footer .area-limite figure img {
+     width: 150px;
+}
+
+.info-footer p {
+     width: 90%;
+     color: #fff;
+     font-size: 1.2em;
+     margin: 10px auto;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 1025px) {
+     .menu, .area-limite {
+          width: 100%;
+     }
+}
+
+@media (max-width: 1024px) {
+     .menu, .area-limite {
+          width: 95%;
+     }
+}
+
+@media (max-width: 768px) {
+
+     .secao-margin-bottom {
+          margin-bottom: 10%;
+     }
+
+     .menu, .area-limite {
+          width: 95%;
+     }
+
+     .banner-topo {
+          height: 400px;
+     }
+
+     .sobre-encontre-aqui figure {
+          display: none;
+     }
+
+     .secao-cards-multiespecialidade figure {
+          width: calc((100% / 2) - 20px);
+     }
+}
+
+@media (max-width: 640px) {
+
+     h2, h3 {
+          font-size: 1.5em;
+     }
+
+     .secao-margin-bottom {
+          margin-bottom: 16%;
+     }
+
+     .menu {
+          flex-direction: column;
+     }
+
+     .menu nav {
+          width: 95%;
+          justify-content: space-evenly;
+          padding: 15px 0;
+          border-top: 0.1px solid #292929;
+     }
+
+     .menu nav a {
+          font-size: 1em;
+     }
+
+     .menu figure {
+          padding: 12px 0;
+     }
+
+     .banner-topo {
+          height: 300px;
+     }
+
+     .conteudo-banner h1 {
+          font-size: 1.8em;
+     }
+
+     .sobre-encontre-aqui figure {
+          display: none;
+     }
+
+     .secao-cards-multiespecialidade figure {
+          width: calc((85% / 1) - 10px);
+          margin: 0 1.3% 15% 1.3%;
+     }
+
+     .secao-cards-multiespecialidade figure figcaption {
+          font-size: 1.1em;
+     }
+}
+
+@media (max-width: 490px) {
+
+     h2, h3 {
+          font-size: 1.3em;
+     }
+
+
+     p, .conteudo-texto-contato p, .info-footer p {
+          width: 80%;
+          font-size: 1.0em;
+     }
+
+     .banner-topo {
+          height: 200px;
+     }
+
+     .conteudo-banner h1 {
+          font-size: 1em;
+     }
+
+     .link-ver-horarios a {
+          font-size: 0.8em;
+     }
+
+     .sobre-encontre-aqui span {
+          font-size: 1em;
+     }
+     
+     .sobre-encontre-aqui ul li {
+          font-size: 0.9em;
+          margin: 2px 0;
+     }
+     
+}
+
+@media (max-width: 350px) {
+
+     h2, h3 {
+          font-size: 1.2em;
+     }
+
+     p, .conteudo-texto-contato p {
+          font-size: 1em;
+     }
+
+     .menu figure {
+          padding: 8px 0;
+     }
+
+     .menu figure, .menu figure img, footer .area-limite figure img {
+          width: 100px;
+     }
+
+     .secao-cards-multiespecialidade figure figcaption {
+          font-size: 0.9em;
+          padding: 8px 0;
+     }
+
+     .menu nav a {
+          font-size: 0.8em;
+     }
+
+     .sobre-encontre-aqui span {
+          font-size: 0.9em;
+     }
+     
+     .sobre-encontre-aqui ul li {
+          font-size: 0.9em;
+          margin: 2px 0;
+     }
+
+     .info-footer p {
+          font-size: 0.8em;
+     }
+}
