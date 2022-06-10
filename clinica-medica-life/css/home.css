@@ -242,6 +242,12 @@ footer .area-limite figure img {
 
 /* MEDIA QUERY */
 
+@media (min-width: 1440px) {
+     .banner-topo {
+          height: 600px;
+     }
+}
+
 @media (min-width: 1025px) {
      .menu, .area-limite {
           width: 100%;
