@@ -1,7 +1,7 @@
 # Clínica Médica Life 🏥
 
 Aqui está meu primeiro website responsivo. 
-Se trata de um site sobre uma clínica média, que contém informações da mesma como: contanto, horários, sobre e dentre outros. Valeu muita a experiência de botar a mão na massa com media query, foi bem tranquilo trabalhar com a responsividade apesar de ter aprendido recentemente. Vamos lá! Com muito progresso e estudo estou melhorando meus códigos e assim sempre será. #html #css
+Se trata de um site sobre uma clínica média, que contém informações da mesma como: contato, horários, sobre e dentre outros. Valeu muita a experiência de botar a mão na massa com media query, foi bem tranquilo trabalhar com a responsividade apesar de ter aprendido recentemente. Bom, vamos lá! Com muito estudo e progresso estou melhorando meus códigos e assim sempre será. #html #css
 
 💻 Você pode entrar neste site através do link: https://luizmeraki.github.io/clinica-life/clinica-medica-life/
 
