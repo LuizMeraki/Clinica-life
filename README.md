@@ -2,6 +2,8 @@
 
 <br>
 
+![clinica](https://user-images.githubusercontent.com/75648386/195617555-bfd46f24-3e8f-46c6-bb79-c06c969c99ac.gif)
+
 <br>
 
 <div align="center">
@@ -17,7 +19,7 @@
 
 <p>Aqui está meu primeiro website responsivo. Se trata de um site de uma clínica média, que contém informações da mesma como: contato, horários, sobre e dentre outros. Valeu muita a experiência de botar a mão na massa com media query, foi bem tranquilo trabalhar com a responsividade apesar de ter aprendido recentemente. Bom, vamos lá! Com muito estudo e progresso estou melhorando meus códigos e assim sempre será.</p>
 
-### Entre no site da Clinica Médica Life
+### Entre no site da Clínica Médica Life
 
 Link: <a href="https://luizmeraki.github.io/clinica-life" target="blank">Clinica Médica Life</a>
 
