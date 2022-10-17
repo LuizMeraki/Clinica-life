@@ -27,7 +27,7 @@ Link: <a href="https://luizmeraki.github.io/clinica-life" target="blank">Clinica
 
 ## Tecnologias
 
-<p>Nesta aplicação eu utilizei as seguintes tecnologias:</p>
+<p>Neste site eu utilizei as seguintes tecnologias:</p>
 
 <ul>
   <li>HTML</li>
